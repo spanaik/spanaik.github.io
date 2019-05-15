@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Spandan Naik
+permalink: /index.html
 ---
 <main>
        <section class="hello-world">
