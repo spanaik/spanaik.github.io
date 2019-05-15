@@ -1,0 +1,21 @@
+<header>
+        <section class="logo">
+            <span class="desktop-only"><a href="/">Spandan Naik</a></span>
+            <span class="mobile-only"><a href="/">SN</a></span>
+        </section>
+		<section class="not-logo">
+            <nav>
+                <ul>
+				  {% for item in site.data.navigation %}
+				    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+				  {% endfor %}
+				</ul>
+            </nav>
+            <section class="social">
+                <a href="https://github.com/spanaik" target="_blank"><span class="fab fa-github fa-2x"></span></a>
+                <a href="https://www.linkedin.com/in/spanaik/" target="_blank"><span class="fab fa-linkedin fa-2x"></span></a>
+                <a href="https://www.facebook.com/spanaik" target="_blank"><span class="fab fa-facebook fa-2x"></span></a>
+                <a href="mailto:spandan.naik@gmail.com"><span class="fas fa-at fa-2x"></span></a>
+            </section>
+        </section>
+    </header>

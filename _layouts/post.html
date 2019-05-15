@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<main>
+    <section class="blog-container">
+        <div class="blog-content">
+            <h3>{{ page.title }}</h3>
+            <h4>{{ page.date | date_to_string }}</h4>
+            {{ content }}
+        </div>
+    </section>
+</main>
